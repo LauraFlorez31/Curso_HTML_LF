@@ -1,0 +1,226 @@
+<p> Laura Florez </p>
+
+<html>
+ <head> 
+   <title>Curso HTML</title>
+ </head>
+ <body>
+    Hecho por: </br> Laura Florez
+ </body>
+
+ <body>
+
+<p> SENA </p>
+<p><b> Curso HTML </b></p>
+<p><big> Laura </big></p>
+<p><i> Andrea </i></p> 
+<p><small> Florez </small></p> 
+<p><strong> Garcia </strong></p> 
+<p><sub> Ficha: </sub></p> <
+p><sup> 2243172 </sup></p>
+<p><ins> Mayo </ins></p> 
+<p><del> 2021 </del></p>
+
+<h1> Tipo 1</h1>
+<hr />
+<h2> Tipo 2</h2>
+<hr />
+<h3> Tipo 3</h3>
+<hr />
+<h4> Tipo 4</h4>
+<hr />
+<h5> Tipo 5</h5>
+<hr />
+<h6> Tipo 6</h6>
+<hr />
+
+<p align="center">
+  ¡HELLO!
+  </p>
+
+  <p align="center"> Libros <br />
+   <hr width=10% align="right" /> Carolina Andüjar
+   </p>
+
+  <img src="Bruja13.jpg" height="143px" width="143" border"1px" alt="" />
+
+<a href="http://www.sololearn.com" target="_blank">
+ Learn Playing 
+ </a>
+<hr />
+
+<ol>
+ <li>Gato</li>
+ <li>Perro</li>
+ <li>Gallina</li>
+ </ol>
+
+ <ul>
+  <li>Negro</li>
+  <li>Morado</li>
+  <li>Amarillo</li>
+  </ul>
+
+<table border="2">
+  <tr>
+  <td>
+  bgcolor="pink">You<</td>
+  bgcolor="black">Pie de Bruja<</td>
+  bgcolor="red">Vampyr<</td>
+    <td> You </td>
+    <td> Pie de Bruja </td>
+    <td> Vampyr </td>
+    </tr>
+    <tr>
+    <td><br /></td>
+    <td
+    colspan="2"><br />
+    </td>
+      </tr>
+ </table>
+<hr />
+ 
+<h1> Vampyr</h1>
+ <div
+style="background-
+color: red;
+color: white;
+padding: 20px;">
+       <p> En un mundo dónde todos tratan de aparentar
+       tener másde lo que tienen nadie dudaría de quien
+       niega su riqueza. </p>
+
+<form>
+ <input type="text" name="username" /><br />
+ <input type="password" name="password" />
+ <input type="submit" value="Submit" />
+ </form>
+
+    <!-- ​Proyecto -->
+<h1><span> Mis habilidades</span></h1>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<hr />
+
+<h1><span> Mi Horario
+Schedule</span></h1>
+<table>
+<tr>
+ <th>Lunes</th>
+ <th>Martes</th>
+ <th>Miercoles</th>
+ <th>Jueves</th>
+ <th>Viernes</th>
+ <th>Sabado</th>
+</tr>
+<tr>
+ <td>1-6:00</td>
+ <td
+ class="selected">Lear
+h</td>
+
+<h1><span> Contacto</span></h1>
+<form>
+ <input name="name" type="text" /><br/>
+  <input name="email" type="email" /><br/>
+   <textarea name="message"></textarea>
+    <input type="submit" value="SEND" class="submit" />
+    </form>
+ <div class="section">
+  <h1><span> Mis Medios</span></h1>
+   <iframe height="150" width="300"
+   src="https://www.youtube.com/channel/UCNZqi8cqCTjiqpjDgBWM9jQ"
+   allowfullscreen frameborder="0"></iframe>
+        </div>
+</body>
+</html>
+
+<!-- ​HTML5 -->
+
+<! DOCTYPE html>
+ <html>
+  <head> </head>
+  <body>
+   <header>
+    <h1> Laura Florez </h1>
+   <h3> Andrea Garcia </h3>
+   </header>
+
+<nav>
+ <ul>
+  <li> <a href="#"> Inicio </a> </li>
+  <li> <a href="#"> Libros </a> </li>
+  <li> <a href="#"> Recomendaciones </a> </li>
+ </ul>
+
+ <article>
+   <h1> Libros </h1>
+   <section>
+    <h3> 2021 </h3>
+  <p> En este articulo se mostraran algunos Libros que salieron este año </p>
+   </section>
+    <aside>
+     <p> Se reco,mendaran algunos libros </p>
+     < / aside>
+ </article>
+
+<audio controls autoplay loop>
+ <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+<video controls autoplay loop>
+ <source src="video.mp4" type/video/mp4>
+ <source src="video.ogg" type="video/ogg">
+ Video no compatible con su navegador
+ </video>
+
+<progress 
+min="0" 
+max="100" 
+value="35">
+</progress>
+
+
+<svg width="2000" height="2000">
+  <circle cx="60" cy="60" r="30" fill="red" />
+</svg>
+
+<svg height="200" width="400">
+  <ellipse cx="100" cy="50" rx="100" RY="90"
+  style ="fill:black" />
+</svg>
+
+<svg width="500" height="500">
+  <path d="M 0 0 L200 200 L200 0 Z" style="stroke:#000;
+  fill:none; />
+</svg>
+
+<form>
+ <label for="email"> Direccion del correo electronico: </label>
+ <input type="text" name=""emailplaceholder="email@ejemplo.com" />
+ </form>
+
+ <form>
+ <label for="email" Dirrecion del correo electronico: </label>
+ <input type="text" name="email" autofocus/>
+ </form>
+
+
+ <form autocomplete="off">
+ <label for="email" Dirrecion del correo electronico: </label>
+ <input type="text" name="email" required/>
+ <input type="submit" value="Submit">
+ </form>
+
+<input id="mysearch" name="searchtem" type="search" />
+
+<input id="Libros" type="text" list="tipo" />
+<datalist id="tipo">
+  <option value="comedia">
+  <option value="terror">
+  <option value="drama">
+</datalist>
+  </body>
+ < /html>
